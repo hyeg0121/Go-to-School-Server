@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/ranking")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class RankingController {
 
     private final RankingService rankingService;
